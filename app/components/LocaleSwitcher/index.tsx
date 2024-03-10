@@ -1,5 +1,5 @@
 'use client';
-import {usePathname, useRouter, locales} from '@/app/config/navigation';
+import {usePathname, useRouter, locales} from '@/app/config/next-intl/navigation';
 import { useLocale } from 'next-intl';
 
 export default function LocaleSwitcher(){

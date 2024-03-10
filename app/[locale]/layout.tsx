@@ -11,8 +11,11 @@ export default function LocaleLayout({
   return (
     
     <html lang={locale}>
-      <body>{children}</body>
-      <Footer/>
+      <body>
+        {children}
+        <Footer/>
+      </body>
+      
     </html>
   );
 }
